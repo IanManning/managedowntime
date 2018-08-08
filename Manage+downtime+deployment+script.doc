@@ -1,0 +1,822 @@
+Message-ID: <1261869453.5716.1533738880503.JavaMail.confluence@upconap001>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_5715_1096818160.1533738880502"
+
+------=_Part_5715_1096818160.1533738880502
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Manage downtime deployment script</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+#main {
+    padding-bottom: 1em !important; /* The default padding of 6em is too mu=
+ch for printouts */
+}
+
+body {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+body, #full-height-container, #main, #page, #content, .has-personal-sidebar=
+ #content {
+    background: #fff    !important;
+    color: #000         !important;
+    border: 0           !important;
+    width: 100%         !important;
+    height: auto        !important;
+    min-height: auto    !important;
+    margin: 0           !important;
+    padding: 0          !important;
+    display: block      !important;
+}
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+    color: #000;
+}
+#content h1,
+#content h2,
+#content h3,
+#content h4,
+#content h5,
+#content h6 {
+    font-family: Arial, Helvetica, FreeSans, sans-serif;
+    page-break-after: avoid;
+}
+pre {
+    font-family: Monaco, "Courier New", monospace;
+}
+
+#header,
+.aui-header-inner,
+#navigation,
+#sidebar,
+.sidebar,
+#personal-info-sidebar,
+.ia-fixed-sidebar,
+.page-actions,
+.navmenu,
+.ajs-menu-bar,
+.noprint,
+.inline-control-link,
+.inline-control-link a,
+a.show-labels-editor,
+.global-comment-actions,
+.comment-actions,
+.quick-comment-container,
+#addcomment {
+    display: none !important;
+}
+
+.comment .date::before {
+    content: none !important; /* remove middot for print view */
+}
+
+h1.pagetitle img {
+    height: auto;
+    width: auto;
+}
+
+.print-only {
+    display: block;
+}
+#footer {
+    position: relative !important; /* CONF-17506 Place the footer at end of=
+ the content */
+    margin: 0;
+    padding: 0;
+    background: none;
+    clear: both;
+}
+
+#poweredby {
+    border-top: none;
+    background: none;
+}
+
+#poweredby li.print-only {
+    display: list-item;
+    font-style: italic;
+}
+
+#poweredby li.noprint {
+    display:none;
+}
+
+
+/* no width controls in print */
+.wiki-content .table-wrap,
+.wiki-content p,
+.panel .codeContent,
+.panel .codeContent pre,
+.image-wrap {
+    overflow: visible !important;
+}
+
+/* TODO - should this work? */
+#children-section,
+#comments-section .comment,
+#comments-section .comment .comment-body,
+#comments-section .comment .comment-content,
+#comments-section .comment p {
+    page-break-inside: avoid;
+}
+
+#page-children a {
+    text-decoration: none;
+}
+
+/**
+ hide twixies
+
+ the specificity here is a hack because print styles
+ are getting loaded before the base styles. */
+#comments-section.pageSection .section-header,
+#comments-section.pageSection .section-title,
+#children-section.pageSection .section-header,
+#children-section.pageSection .section-title,
+.children-show-hide {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.children-show-hide.icon {
+    display: none;
+}
+
+/* personal sidebar */
+.has-personal-sidebar #content {
+    margin-right: 0px;
+}
+
+.has-personal-sidebar #content .pageSection {
+    margin-right: 0px;
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Manage downtime deployment script</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"Managedowntimedeploymentscript-/*&lt;![CDATA[*/div.rbtoc1=
+533738880432{padding:0px;}div.rbtoc1533738880432ul{list-style:disc;margin-l=
+eft:0px;}div.rbtoc1533738880432li{margin-left:0px;padding-left:0px;}/*]]&gt=
+;*/Overview#Managedowntimedeploymentscript-OverviewCur"><style type=3D"text=
+/css">/*<![CDATA[*/
+div.rbtoc1533738880432 {padding: 0px;}
+div.rbtoc1533738880432 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1533738880432 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style>
+<div class=3D"toc-macro rbtoc1533738880432">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#Managedowntimedeploymentscript-Overview">Overview</a></li>=
+=20
+<li><a href=3D"#Managedowntimedeploymentscript-Currentversion">Current vers=
+ion</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#Managedowntimedeploymentscript-Useage(inPowerShell):">Useag=
+e (in PowerShell):</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Prerequisities">Prerequisiti=
+es</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Testmode">Test mode</a></li>=
+=20
+<li><a href=3D"#Managedowntimedeploymentscript-RemovingSnapshotsMode">Remov=
+ing Snapshots Mode</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Revertsnapshotsmode">Reverts=
+napshots mode</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Foldercopymove">Folder copy =
+move</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Rollbackcopymode">Rollbackco=
+py mode</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-ScriptandExampleconfig">Scri=
+pt and Example config</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Guideforuse">Guide for use</=
+a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-GenericChangeticketinstructi=
+ons">Generic Change ticket instructions</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-Runningasascheduledtask(synt=
+axexample)">Running as a scheduled task (syntax example)</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-&quot;Here'soneImadeearlier&=
+quot;configfiles">&quot;Here's one I made earlier&quot; config files</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#Managedowntimedeploymentscript-Configfilenamingconvention">=
+Config file naming convention</a></li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-ExampleConfigfiles">Example =
+Config files</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#Managedowntimedeploymentscript-PotentialNewFeatures">Potent=
+ial New Features</a></li>=20
+</ul>=20
+</div></h2>
+<h2 id=3D"Managedowntimedeploymentscript-Overview">Overview</h2>
+<p>This script is designed to manage deploys which have a format along the =
+following lines:</p>
+<p>1)&nbsp;&nbsp;&nbsp;&nbsp; Stop a list of services/websites/scheduled ta=
+sks on a list of servers<br />2)&nbsp;&nbsp;&nbsp;&nbsp; Do some stuff (run=
+ a script, promote some code, change some permissions etc)<br />3)&nbsp;&nb=
+sp;&nbsp;&nbsp; Start the list of things stopped in 1)</p>
+<p>xml config file defines what the script will do for any particular deplo=
+y, and the script is run with an argument of Stop, Start, Test, or RevertVm=
+Snapshots, RemoveVMSnapshots or rollbackcopy.</p>
+<p>The script takes a log of the actions it's completed in the same folder =
+as the deploy.</p>
+<h2 id=3D"Managedowntimedeploymentscript-Currentversion">Current version</h=
+2>
+<h3 id=3D"Managedowntimedeploymentscript-Useage(inPowerShell):">Useage (in =
+PowerShell):</h3>
+<p>.\ManageDowntime.ps1 .\Path\to\ConfigFile.config start/stop/test/removev=
+msnapshots/revertvmsnapshots/rollbackcopy</p>
+<p>Please note that when using this to take snapshots, the 'stop' argument =
+must be used.</p>
+<h3 id=3D"Managedowntimedeploymentscript-Prerequisities">Prerequisities</h3=
+>
+<p class=3D"confluence-link">The script uses a number of additional PowerSh=
+ell cmdlet snapins and modules. To be sure you can run it from spinfap001 -=
+ this should have everything relevant installed.</p>
+<h3 id=3D"Managedowntimedeploymentscript-Testmode">Test mode</h3>
+<p>Test mode attempts to make the connections necessary to take any of the =
+config file specified actions without actually going as far as changing any=
+thing.</p>
+<p>For scheduled tasks it querys the server to check the task exists with t=
+he name(s) specified.&nbsp; For services it does the equivalent.</p>
+<p>The only exceptions to this are vmsnapshots - all this checks is that th=
+e name and computername fields in the config file have not been left blank.=
+ &nbsp;We're assuming anyone attempting to run the script has an account wi=
+th rights to take snapshots.</p>
+<p>Mistakes in the xml file (i.e. missing off a closing &quot;&gt;&quot; fo=
+r example) will be caught as errors by PowerShell.</p>
+<p>The script&nbsp;<strong>will not</strong> catch incorrectly named tags.<=
+/p>
+<h3 id=3D"Managedowntimedeploymentscript-RemovingSnapshotsMode">Removing Sn=
+apshots Mode</h3>
+<ul>
+<li>Checks there are snapshots defined in the config file.</li>
+<li>Remove only the specified snapshots on the specified servers (descripti=
+on doesn=E2=80=99t matter).</li>
+<li>Remove all snapshots if a servername is specified but no snapshotname (=
+for that server!)</li>
+<li>Don=E2=80=99t do ANYTHING else, even if there are other things specifie=
+d in the config file.</li>
+</ul>
+<h3 id=3D"Managedowntimedeploymentscript-Revertsnapshotsmode">Revertsnapsho=
+ts mode</h3>
+<ul>
+<li>Checks there are snapshots defined in the config file</li>
+<li>Reverts to the specified snapshot if specified;&nbsp; reverts to the mo=
+st recent if server name specified but snapshot name not</li>
+<li>Powers the server(s) back on post snapshot revert</li>
+<li>Don=E2=80=99t do ANYTHING else, even if there are other things specifie=
+d in the config file.</li>
+</ul>
+<h3 id=3D"Managedowntimedeploymentscript-Foldercopymove">Folder copy move</=
+h3>
+<ul>
+<li><p>Back up the a folder containing one or more files to be updated to t=
+he folder you run the script from, under a directory &quot;bu&quot;\&lt;nam=
+e of backup specified in individual node of config file&gt;</p></li>
+<li>Copy files across that are newer than the destination from source folde=
+rs specified in the configuration file</li>
+<li>&quot;currentfolder&quot; is the folder that already exists on the loca=
+tion you want to update</li>
+<li>&quot;new folder&quot; is the folder containing whatever files you want=
+ to copy over to &quot;currentfolder&quot;</li>
+<li>Only files that don't exist in the destination, or are newer in the sou=
+rce will be copied to &quot;currentfolder&quot; from &quot;newfolder&quot;<=
+/li>
+<li>Note EVERY copy is logged individually - all the backups and all the co=
+pies</li>
+</ul>
+<h3 id=3D"Managedowntimedeploymentscript-Rollbackcopymode">Rollbackcopy mod=
+e</h3>
+<ul>
+<li>Checks there are folder tags in the config ilfe</li>
+<li>Copies the entire backup back to the original location - this uses Robo=
+copy /MIR so overwrites any changes</li>
+<li>Doesn't do anything else in the config file</li>
+</ul>
+<p>&nbsp;</p>
+<h3 id=3D"Managedowntimedeploymentscript-ScriptandExampleconfig"><span styl=
+e=3D"font-size: 16.0px;font-weight: bold;">Script and Example config</span>=
+</h3>
+<p>This is the script itself and a generic config file - it doesn't related=
+ to a specific mode.&nbsp; See the Here's one I made earlier section below =
+for other/specific examples.</p>
+<p>Example config file: <a href=3D"/confluence/download/attachments/1386764=
+75/ManageDowntime.config?version=3D13&amp;modificationDate=3D1530004911552&=
+amp;api=3Dv2" data-linked-resource-id=3D"138676492" data-linked-resource-ve=
+rsion=3D"13" data-linked-resource-type=3D"attachment" data-linked-resource-=
+default-alias=3D"ManageDowntime.config" data-linked-resource-content-type=
+=3D"application/x-upload-data" data-linked-resource-container-id=3D"1386764=
+75" data-linked-resource-container-version=3D"86">ManageDowntime.config</a>=
+</p>
+<p>Script: <a href=3D"/confluence/download/attachments/138676475/ManageDown=
+time.ps1?version=3D39&amp;modificationDate=3D1533052175951&amp;api=3Dv2" da=
+ta-linked-resource-id=3D"138676493" data-linked-resource-version=3D"39" dat=
+a-linked-resource-type=3D"attachment" data-linked-resource-default-alias=3D=
+"ManageDowntime.ps1" data-linked-resource-content-type=3D"application/x-upl=
+oad-data" data-linked-resource-container-id=3D"138676475" data-linked-resou=
+rce-container-version=3D"86">ManageDowntime.ps1</a></p>
+<p>&nbsp;</p>
+<div class=3D"confluence-information-macro confluence-information-macro-tip=
+">=20
+<p class=3D"title">Testing - run as administrator</p>=20
+<span class=3D"aui-icon aui-icon-small aui-iconfont-approve confluence-info=
+rmation-macro-icon"></span>=20
+<div class=3D"confluence-information-macro-body">
+<p>NB if you're testing this (probably on a workstation) and find it is, fo=
+r example, failing to stop a service, try running powershell with the optio=
+n &quot;Run As Administrator&quot;.</p>
+</div>=20
+</div>=20
+<p>&nbsp;</p>
+<h3 id=3D"Managedowntimedeploymentscript-Guideforuse">Guide for use</h3>
+<p>This is intended for e.g. developers or PMs on how to configure the XML =
+file:</p>
+<p><span class=3D"confluence-embedded-file-wrapper"><a class=3D"confluence-=
+embedded-file" href=3D"/confluence/download/attachments/138676475/ManageDow=
+ntimeScript-GuideForUse.docx?version=3D15&amp;modificationDate=3D1533738846=
+875&amp;api=3Dv2" data-nice-type=3D"Word Document" data-file-src=3D"/conflu=
+ence/download/attachments/138676475/ManageDowntimeScript-GuideForUse.docx?v=
+ersion=3D15&amp;modificationDate=3D1533738846875&amp;api=3Dv2" data-linked-=
+resource-id=3D"138676510" data-linked-resource-type=3D"attachment" data-lin=
+ked-resource-container-id=3D"138676475" data-linked-resource-default-alias=
+=3D"ManageDowntimeScript-GuideForUse.docx" data-mime-type=3D"application/vn=
+d.openxmlformats-officedocument.wordprocessingml.document" data-has-thumbna=
+il=3D"true" data-linked-resource-version=3D"15"><img src=3D"/confluence/res=
+t/documentConversion/latest/conversion/thumbnail/138676510/15" height=3D"15=
+0" /></a></span></p>
+<h3 id=3D"Managedowntimedeploymentscript-GenericChangeticketinstructions">G=
+eneric Change ticket instructions</h3>
+<ul>
+<li style=3D"list-style-type: none;background-image: none;">
+<ul>
+<li>Extract the zip attached to D:\Changes on spinfap001 (ie creating D:\Ch=
+anges\&lt;RFCNumber&gt;)
+<ul>
+<li>NB the zip would be a zipped folder of the Change Number containing any=
+ Managedowntime.confg files and if there are file copies, folders containin=
+g each file, whose paths match the config file - eg like this:&nbsp;<a href=
+=3D"/confluence/download/attachments/138676475/30994.zip?version=3D1&amp;mo=
+dificationDate=3D1533566603904&amp;api=3Dv2" data-linked-resource-id=3D"142=
+115734" data-linked-resource-version=3D"1" data-linked-resource-type=3D"att=
+achment" data-linked-resource-default-alias=3D"30994.zip" data-nice-type=3D=
+"Zip Archive" data-linked-resource-content-type=3D"application/zip" data-li=
+nked-resource-container-id=3D"138676475" data-linked-resource-container-ver=
+sion=3D"86">30994.zip</a></li>
+</ul></li>
+<li>Download the ManageDowntime script from the imwiki:&nbsp; <a href=3D"ht=
+tp://imwiki.ucles.org.uk/confluence/display/ENT/Manage+downtime+deployment+=
+script" rel=3D"nofollow">http://imwiki.ucles.org.uk/confluence/display/ENT/=
+Manage+downtime+deployment+script</a> into the same folder</li>
+<li>Logged into spinfap001 in a powershell window, switch to this directory=
+ and run:
+<ul>
+<li>.\ManageDowntime.ps1 .\ManageDowntimeConfigFile.config stop</li>
+<li>.\ManageDowntime.ps1 .\ManageDowntimeConfigFile.config start</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>For folder copies, change the rollback instruction to:</p>
+<p>&nbsp;.\ManageDowntime.ps1 .\ManageDowntime.config rollbackcopy</p>
+<p>Or, if using snapshots:</p>
+<p>&nbsp;.\ManageDowntime.ps1 .\ManageDowntime.config revertvmsnapshots</p>
+<p>With a task a week later to:</p>
+<p>&nbsp;.\ManageDowntime.ps1 .\ManageDowntime.config removevmsnapshots</p>
+<h3 id=3D"Managedowntimedeploymentscript-Runningasascheduledtask(syntaxexam=
+ple)">Running as a scheduled task (syntax example)</h3>
+<p>As the script is designed to be run interactively, you'll need to edit o=
+ut this line otherwise it will pause waiting for input:</p>
+<p>#&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $dep=
+loyReference =3D Read-Host -Prompt &quot;Please enter a reference for this =
+deploy:&nbsp; for an RFC it should be the RFC number, or a BRIEF descriptio=
+n/code reference for DEV deploys&quot;</p>
+<p>Note the only other prompts in the script related to taking/removing/rev=
+erting vmsnapshots - currently we can't see a scenario where we'd want to s=
+chedule vmsnapshots.</p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" height=3D"504" src=3D"f90=
+3c356039343b43d4533664585075b" data-image-src=3D"/confluence/download/attac=
+hments/138676475/image2018-5-16%2010%3A35%3A8.png?version=3D1&amp;modificat=
+ionDate=3D1526463308778&amp;api=3Dv2" data-unresolved-comment-count=3D"0" d=
+ata-linked-resource-id=3D"141368665" data-linked-resource-version=3D"1" dat=
+a-linked-resource-type=3D"attachment" data-linked-resource-default-alias=3D=
+"image2018-5-16 10:35:8.png" data-base-url=3D"http://imwiki.ucles.org.uk/co=
+nfluence" data-linked-resource-content-type=3D"image/png" data-linked-resou=
+rce-container-id=3D"138676475" data-linked-resource-container-version=3D"86=
+" width=3D"468" /></span></p>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image confluence-content-image-b=
+order" height=3D"126" src=3D"5eb165ce5bb75ebd392acb1f4f536f92" data-image-s=
+rc=3D"/confluence/download/attachments/138676475/image2018-5-16%2010%3A37%3=
+A57.png?version=3D1&amp;modificationDate=3D1526463477085&amp;api=3Dv2" data=
+-unresolved-comment-count=3D"0" data-linked-resource-id=3D"141368666" data-=
+linked-resource-version=3D"1" data-linked-resource-type=3D"attachment" data=
+-linked-resource-default-alias=3D"image2018-5-16 10:37:57.png" data-base-ur=
+l=3D"http://imwiki.ucles.org.uk/confluence" data-linked-resource-content-ty=
+pe=3D"image/png" data-linked-resource-container-id=3D"138676475" data-linke=
+d-resource-container-version=3D"86" width=3D"468" /></span></p>
+<p>In this example...</p>
+<p>Program/script: C:\WINDOWS\system32\WindowsPowerShell\v1.0\powershell.ex=
+e</p>
+<p>Add arguments: -command &quot;&amp;{C:\ESM\MondayRestart\ManageDowntime.=
+ps1 C:\ESM\MondayRestart\ESM_DEV.config start }&quot;</p>
+<p>Start in: C:\ESM\MondayRestart</p>
+<h2 id=3D"Managedowntimedeploymentscript-&quot;Here'soneImadeearlier&quot;c=
+onfigfiles">&quot;Here's one I made earlier&quot; config files</h2>
+<h4 id=3D"Managedowntimedeploymentscript-Configfilenamingconvention">Config=
+ file naming convention</h4>
+<p>ManageDowntime_&lt;Service Name&gt;_&lt;ChangeXXXX&gt;_&lt;environment&g=
+t;_&lt;specify if stop or start only&gt;.config</p>
+<p><em>oviously changeXXXX should be replaced with the change number and is=
+ only for changes</em></p>
+<p>e.g.</p>
+<p>ManageDowntime_BluePeter_PRD_STOPONLY.config : &nbsp;a config file for t=
+he blue peter service in production that should only be used in stop mode.<=
+/p>
+<p>ManageDowntime_FraggleRock_UAT.config : &nbsp;a config file for the Frag=
+gle Rock service in UAT that can be used in either stop or start mode.</p>
+<p>ManageDowntime_MastersOfTheUniverse_Change66666_PRD.config :&nbsp; a con=
+fig file for the&nbsp;MastersOfTheUniverse service used as part of change 6=
+6666 in PRD.</p>
+<h4 id=3D"Managedowntimedeploymentscript-ExampleConfigfiles">Example Config=
+ files</h4>
+<p>&nbsp;</p>
+<p><a href=3D"/confluence/display/ENT/Here%27s+One+I+Made+Earlier%3A+ESM">H=
+ere's One I Made Earlier: ESM</a></p>
+<p><a href=3D"/confluence/display/ENT/Here%27s+One+I+Made+Earlier%3A+Server=
++Snapshots">Here's One I Made Earlier: Server Snapshots</a></p>
+<p><a href=3D"/confluence/display/ENT/Here%27s+one+I+made+earlier%3A++MoveI=
+t+UAT">Here's one I made earlier: MoveIt UAT</a></p>
+<p><a href=3D"/confluence/display/ENT/Here%27s+one+I+made+earlier%3A++STS">=
+Here's one I made earlier: STS</a></p>
+<p><a href=3D"/confluence/display/ENT/Here%27s+one+I+made+earlier%3A++STS+U=
+AT">Here's one I made earlier: STS UAT</a></p>
+<p><a href=3D"/confluence/display/ENT/Here%27s+one+I+made+earlier%3A++EMS+w=
+eb+sites">Here's one I made earlier: EMS web sites</a></p>
+<p><a href=3D"/confluence/download/attachments/138676475/ManageDowntime_CEP=
+ortals_PP2_Revert.config?version=3D1&amp;modificationDate=3D1521627974009&a=
+mp;api=3Dv2" data-linked-resource-id=3D"141366922" data-linked-resource-ver=
+sion=3D"1" data-linked-resource-type=3D"attachment" data-linked-resource-de=
+fault-alias=3D"ManageDowntime_CEPortals_PP2_Revert.config" data-linked-reso=
+urce-content-type=3D"application/x-upload-data" data-linked-resource-contai=
+ner-id=3D"138676475" data-linked-resource-container-version=3D"86">Here's o=
+ne I made earlier: reverting to specified VM snapshot CE Portals PRD2</a></=
+p>
+<p><a href=3D"/confluence/download/attachments/138676475/ManageDowntime_RES=
+TServices_Change30376_PP2.config?version=3D1&amp;modificationDate=3D1530025=
+087867&amp;api=3Dv2" data-linked-resource-id=3D"141369633" data-linked-reso=
+urce-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-res=
+ource-default-alias=3D"ManageDowntime_RESTServices_Change30376_PP2.config" =
+data-linked-resource-content-type=3D"application/x-upload-data" data-linked=
+-resource-container-id=3D"138676475" data-linked-resource-container-version=
+=3D"86">ManageDowntime_RESTServices_Change30376_PP2.config</a></p>
+<h2 id=3D"Managedowntimedeploymentscript-PotentialNewFeatures">Potential Ne=
+w Features</h2>
+<p>Use this space to add ideas for features which could be added to this sc=
+ript in future...</p>
+<p>Add priority order specifying via config file (will require total recode=
+ of script and file).</p>
+<p>&nbsp;</p>
+    </div>
+</body>
+</html>
+------=_Part_5715_1096818160.1533738880502
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/5eb165ce5bb75ebd392acb1f4f536f92
+
+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
+rkJgggA=
+------=_Part_5715_1096818160.1533738880502
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/f903c356039343b43d4533664585075b
+
+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
+------=_Part_5715_1096818160.1533738880502--
